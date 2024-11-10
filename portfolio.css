@@ -582,6 +582,8 @@
 
             position:relative ;
             right: 270px;
+            margin: 0;
+            overflow: hidden;
             
         }
 
