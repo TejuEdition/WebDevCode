@@ -1,0 +1,589 @@
+.mainpage{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+
+
+        .leftsidebar{
+
+            
+            border: 3px solid black;
+            width: 400px;
+            height: 1400px;
+            margin-left: 270px;
+            border-radius: 5px;
+            
+
+            .profilepic{
+                
+                background-color: #a8cce0;
+                height: 50px;
+                width: 50px;
+                margin-left:170px;
+                margin-top: 20px;
+                border-radius: 50%;
+            }
+
+            .yourname{
+                text-align: center;
+                font-size: 1.1rem;
+                position: relative;
+                bottom: 10px;
+                
+            }
+
+            .navbar1{
+
+                 a{
+                    text-decoration: none;
+                    margin-left: 25px;
+                    color: black;
+
+                 }
+
+                 .title{
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-family: 'Brush Script MT', cursive;
+                 }
+                 .info{
+                    text-align: center;
+                    position: relative;
+                    bottom: 20px;
+                    color: rgb(124, 121, 117);
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                 }
+
+                 hr{
+
+                    border: 1px solid black;
+                 }    
+            }
+
+                .projects{
+
+                    .projectheading{
+                        font-family: 'Brush Script MT', cursive;
+                        text-align: center;
+                     
+                    }
+                    hr{
+
+                        border: 1px solid black;
+                     } 
+
+
+                     .portfolio {
+
+                         text-align: center;
+                         background-color: rgb(207, 206, 206);
+                         height: 40px;
+                         width: 400px;
+                         border: 1px solid black;
+
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            
+                        }
+                        
+                     }
+
+                }
+           
+
+                .workexpheading{
+                    text-align: center;
+                    font-family: 'Brush Script MT', cursive;
+                    }
+
+                    .workexperience{
+
+                        
+                        background-color: rgb(207, 206, 206);
+                        border: 1px solid black;
+                        
+
+
+                        
+                        .info1{
+                            font-family: 'Brush Script MT', cursive;
+                            margin-left: 20px;
+                        }
+
+                        .info2{
+                            margin-left: 20px;
+                        }
+                        
+
+                        a{
+                            text-decoration: none;
+                            margin-left: 20px;
+                        }
+
+
+                    }
+                .workexperience{
+
+                        
+                        background-color: rgb(207, 206, 206);
+                        border: 1px solid black;
+                        
+
+
+                        
+                        .info1{
+                            font-family: 'Brush Script MT', cursive;
+                            margin-left: 20px;
+                        }
+
+                        .info2{
+                            margin-left: 20px;
+                        }
+                        
+
+                        a{
+                            text-decoration: none;
+                            margin-left: 20px;
+                        }
+
+
+                    }
+
+                 .education{
+
+                    text-align: center;
+                    font-family: 'Brush Script MT', cursive;
+                           
+                 }   
+
+                 .educationinfo{
+                    text-align: center;
+
+                 }
+
+                 
+                 .infohead{
+                    margin-left: 40px;
+                 }
+
+                 hr{
+                    border: 1px solid black;
+                 }
+
+
+                 .review{
+
+                        .reviewhead{
+                            font-family: 'Brush Script MT', cursive;
+                            margin-left: 80px;
+                        }
+
+
+                        .block{
+
+                            border: 1px solid black;
+                            width: 300px;
+                            margin-left: 50px;
+                            border-radius: 20px;
+
+
+                            .info{
+
+                                margin-left: 20px;
+                            
+                            }
+
+                            .footername{
+                             color: rgb(124, 121, 117);
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                margin-left: 20px;
+                            }
+                        
+                         }
+
+
+                     }
+
+
+
+                     footer{
+
+                        font-family: 'Brush Script MT', cursive;
+                        margin-top: 10px;
+                        margin-left: 110px;
+                     }
+
+
+        }
+
+
+        /* End of Side navbar */
+
+
+        /* Middle Main Content */
+
+        .mainblock{
+
+            
+            
+            margin-left: 90px;
+            border: 1px solid black;
+            width: 1000px;
+            height: 1400px;
+            
+
+
+            .navbar{
+
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 50px;
+
+                .leftside{
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+
+                    .logo{
+                        
+                        background-color: #a8cce0;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 20%;
+                        
+                    }
+
+                    .name{
+
+                        margin-top: 20px;
+                    }
+
+
+                }
+
+                .rightside{
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    margin-left: 370px;
+                    
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                }
+            }
+
+
+            .textheading{
+
+                margin-left: 250px;
+
+                .head{
+
+                    font-family: 'Brush Script MT', cursive;
+                    font-size: 2.5rem;
+                    
+                    
+                    
+
+                }
+
+                .info{
+
+                    color: rgb(124, 121, 117);
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    position: relative;
+                    bottom: 30px;
+                    left: 40px;
+                }
+            }
+
+
+            
+            .maincontainer{
+
+                
+                height: 380px;
+                border: 2px solid black;
+                display: flex;
+                flex-wrap: wrap;
+               
+                
+                
+
+
+                .leftsidecontent{
+
+                    
+                    border-right: 2px solid black;
+                    height: 380px;
+                    width: 200px;
+                    
+
+
+                    .projects{
+
+                        .projectheading{
+                            margin-left: 20px;
+                            font-family: 'Brush Script MT', cursive;
+                        }
+                        
+                        hr{
+                            border: 1px solid black;
+                            
+                           }
+                            
+                        
+                       .portfolio{
+
+                        margin-left: 20px;
+
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            
+                        }
+
+                       
+                        
+                       }
+                      
+
+                       .product a{
+                        text-decoration: none;
+                        margin-left: 20px;
+                        color: black;
+                    }
+
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                }
+
+
+                .middlecontent{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    height: 380px;
+                    width: 400px;
+                    border-right: 2px solid black;
+                    
+                    
+                    
+
+                    .workexperience{
+
+                       
+                        border-bottom: 2px solid black;
+                        height: 180px;
+                        overflow: hidden;
+                        
+                        
+                        .workexperienceinside{
+
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            a{
+                                text-decoration: none;
+                                
+                                
+                            }
+                        }
+
+                        .info1{
+
+                            font-family: 'Brush Script MT', cursive;;
+                        }
+                        
+
+
+                    }
+
+                    .opensourcework{
+
+                        margin-left: 20px;
+                        
+                    
+                        a{
+                            text-decoration: none;
+                            
+                        }
+
+
+                        .info1{
+
+                            font-family: 'Brush Script MT', cursive;
+                        }
+
+
+                    }
+
+                }
+
+
+                .rightcontent{
+
+                   display: flex;
+                   flex-direction: column;
+                   margin-left: 20px;
+                   
+                   .education{
+
+                    font-family: 'Brush Script MT', cursive;
+                   }
+
+
+                   .coursesitook{
+
+                    margin-bottom: 10px;
+
+                    li{
+                        list-style: none;
+                    }
+                  
+                    
+
+
+                }
+
+                
+
+            }
+
+            
+
+            }
+
+        }  
+        
+           
+
+
+
+
+
+    }       
+
+
+    .footer{
+
+        
+        .reviewhead{
+
+            font-family: 'Brush Script MT', cursive;
+            margin-top: 60px;
+            margin-left: 60px;
+            
+
+
+        }
+
+        .footerblock{
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-left: 60px;
+            margin-top: 30px;
+
+            
+            .block1{
+
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 10px;
+
+                p{
+                    text-align: center;
+                }
+            }
+            
+            .block2{
+
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 10px;
+
+                p{
+                    text-align: center;
+                }
+            }
+            
+            .block3{
+
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 10px;
+
+                p{
+                    text-align: center;
+                }
+            }
+
+            
+
+
+        }
+
+
+        .end{
+            font-family: 'Brush Script MT', cursive;
+            margin-left: 400px;
+            margin-top: 100px;
+
+        }
+        
+    }
+
+
+    @media (max-width: 1064px){
+
+        .mainblock{
+
+            display: none;
+        }
+
+    }
+
+    @media (min-width: 1065px){
+
+        .leftsidebar{
+            display: none;
+        }
+
+    }
+
+    @media (max-width: 750px){
+
+
+        .leftsidebar{
+
+            position:relative ;
+            right: 270px;
+            
+        }
+
+
+    }
